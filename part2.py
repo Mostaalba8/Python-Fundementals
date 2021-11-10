@@ -1,4 +1,5 @@
 temp_list = [1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9]
+temp_list2 = [1,2,3,4,5,6,7,8,9]
 
 
 ## To find the various of operations that can be done to a list
@@ -15,7 +16,7 @@ temp_list = [1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9]
 
 # temp_list.
 
-print(temp_list[2::2])
+print(temp_list2[2::2])
 # list[a:b:c]
 # a = starting index (default = 0)
 # b = last index (default = len(list) - 1)
@@ -23,13 +24,36 @@ print(temp_list[2::2])
 
 # set list cannot repeat the same value, the values cannot be changed in a set list, a set list is unordered
 x = set(temp_list)
-print(x)
+xx = tuple(temp_list)
+print('xx:', xx)
+print('x:', x)
+print('temp_list:', temp_list)
+print('temp_list2:', temp_list2)
+
 
 # empty strings are considered Falsy by default and non empty strings are considered Truthy
 
 # 'type' is used to identify what the variable type is.
 print(type(x))
 
+
+class Character:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.list_of_powers = []
+
+
+
+
+
+
+leaf_shinobi = Character(name = 'Naruto', age = '30')
+leaf_shinobi.list_of_powers = ['Rasengan', 'Shadow Clone']
+print(leaf_shinobi.list_of_powers)
+user_preference = input('What powers would you like to add?')
+leaf_shinobi.list_of_powers.append(user_preference) if user_preference not in leaf_shinobi.list_of_powers else None
+print(leaf_shinobi.list_of_powers)
 
 
 
