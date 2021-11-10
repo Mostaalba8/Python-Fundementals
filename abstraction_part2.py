@@ -1,1 +1,1 @@
-lll
+print('hi')
