@@ -23,10 +23,10 @@ print(temp_list2[2::2])
 # c = step (default = 1)
 
 # set list cannot repeat the same value, the values cannot be changed in a set list, a set list is unordered
-x = set(temp_list)
-xx = tuple(temp_list)
-print('xx:', xx)
-print('x:', x)
+my_set = set(temp_list)
+my_tuple = tuple(temp_list)
+print('my_tuple:', my_tuple)
+print('my_set:', my_set)
 print('temp_list:', temp_list)
 print('temp_list2:', temp_list2)
 
@@ -34,7 +34,7 @@ print('temp_list2:', temp_list2)
 # empty strings are considered Falsy by default and non empty strings are considered Truthy
 
 # 'type' is used to identify what the variable type is.
-print(type(x))
+print(type(my_set))
 
 
 class Character:
@@ -49,10 +49,10 @@ class Character:
 
 
 leaf_shinobi = Character(name = 'Naruto', age = '30')
-leaf_shinobi.list_of_powers = ['Rasengan', 'Shadow Clone']
+leaf_shinobi.list_of_powers = ['rasengan', 'shadow clone']
 print(leaf_shinobi.list_of_powers)
-user_preference = input('What powers would you like to add?')
-leaf_shinobi.list_of_powers.append(user_preference) if user_preference not in leaf_shinobi.list_of_powers else None
+user_preference = input('What powers would you like to add?: ')
+leaf_shinobi.list_of_powers.append(user_preference.lower()) if user_preference.lower() not in leaf_shinobi.list_of_powers else None
 print(leaf_shinobi.list_of_powers)
 
 
