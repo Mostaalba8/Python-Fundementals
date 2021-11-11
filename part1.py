@@ -2,11 +2,11 @@ from datetime import date, datetime
 
 
 name = "Mostafa"
-BIRTH_DATE = "8-August-1999"
-print(BIRTH_DATE)
-x = datetime.strptime(BIRTH_DATE, "%d-%B-%Y")
-print(x)
-age = date.today().year - x.year
+birth_date = "8-August-1999"
+print(birth_date)
+date_to_int = datetime.strptime(birth_date, "%d-%B-%Y")
+print(date_to_int)
+age = date.today().year - date_to_int.year
 print(age)
 height = 180.33
 siblings = 3
