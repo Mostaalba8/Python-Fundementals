@@ -15,4 +15,4 @@ def find_target(nums, target) -> tuple:
         temp_i += 1
 
 nums = (2, 7, 11, 15)
-print(find_target(nums, 26))
+print(find_target(nums, 9))
