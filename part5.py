@@ -18,21 +18,24 @@ num = [1,2,2,3]
 
 def sum_of_squared_list(list):
     squared = [n*n for n in list]
-    if squared == []:
-        return 0
-    else:
-        return sum(squared)
+    return sum(squared)
 
 
 def multiple_of_5(a_val):
     return a_val * 5
 
-def apply(items, f) -> list:
-    new_list = []
-    for item in items:
-        new_val = f(item)
-        new_list.append(new_val)
-    return new_list
+# def apply(items, f) -> list:
+#     new_list = []
+#     for item in items:
+#         new_val = f(item)
+#         new_list.append(new_val)
+#     return new_list
+
+
+# Does what the code above does (commented out)
+# (Jordans solution)
+def apply(items, f):
+    return [f(i) for i in items]
 
 
 print(sum_of_squared_list(num))
