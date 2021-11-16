@@ -16,23 +16,15 @@
 
 
 # refactored find_target
-def finding_target(nums: int, target: int) -> tuple:
-    # if type(target) is not (int or float):
-    #     raise TypeError
+from typing import Optional, List
 
-    # for i in nums:
-    #     if type(i) is not (int or float):
-    #         raise TypeError
 
-    result_tuple = None
+def finding_target(nums: List[int], target: int) -> Optional[tuple]:
     for first_index, first_value in enumerate(nums):
         for second_index, second_value in enumerate(nums):
-            if first_value + second_value == target:
-                temp_tuple = (first_index, second_index) if first_index != second_index else None
-                result_tuple = temp_tuple
-                return result_tuple
-    if result_tuple is None:
-        return 'Not found'
+            if (first_index != second_index) and (first_value + second_value == target):
+                return (first_index, second_index)
+    return None
 
 
 
