@@ -16,6 +16,9 @@
 
 # refactored find_target
 def finding_target(nums: int, target: int) -> tuple:
+    if type(target) is str:
+        raise TypeError
+
     result_tuple = None
     for first_index, first_value in enumerate(nums):
         for second_index, second_value in enumerate(nums):
@@ -27,5 +30,10 @@ def finding_target(nums: int, target: int) -> tuple:
         return 'Not found'
 
 
+
 nums = (2, 7, 11, 16)
-print(finding_target(nums, 900))
+
+if finding_target(nums, 18) in [(0,3), (1,2), (2,1)]:
+    print(True)
+
+print(finding_target(nums, 18))
