@@ -19,6 +19,10 @@ def finding_target(nums: int, target: int) -> tuple:
     if type(target) is not (int or float):
         raise TypeError
 
+    for i in nums:
+        if type(i) is not (int or float):
+            raise TypeError
+
     result_tuple = None
     for first_index, first_value in enumerate(nums):
         for second_index, second_value in enumerate(nums):
