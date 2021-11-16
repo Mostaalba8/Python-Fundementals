@@ -21,9 +21,13 @@ def finding_target(nums: int, target: int) -> tuple:
             if first_value + second_value == target:
                 temp_tuple = (first_index, second_index) if first_index != second_index else None
                 return temp_tuple
+            else:
+                return 'Not found'
+
+
 
 
 
 
 nums = (2, 7, 11, 16)
-print(find_target(nums, 1800))
+print(finding_target(nums, 1800))
