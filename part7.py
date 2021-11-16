@@ -16,18 +16,16 @@
 
 # refactored find_target
 def finding_target(nums: int, target: int) -> tuple:
+    result_tuple = None
     for first_index, first_value in enumerate(nums):
         for second_index, second_value in enumerate(nums):
             if first_value + second_value == target:
                 temp_tuple = (first_index, second_index) if first_index != second_index else None
-                return temp_tuple
-            else:
-                return 'Not found'
-
-
-
-
+                result_tuple = temp_tuple
+                return result_tuple
+    if result_tuple is None:
+        return 'Not found'
 
 
 nums = (2, 7, 11, 16)
-print(finding_target(nums, 1800))
+print(finding_target(nums, 900))
