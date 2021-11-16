@@ -16,7 +16,7 @@
 
 # refactored find_target
 def finding_target(nums: int, target: int) -> tuple:
-    if type(target) is str:
+    if type(target) is not (int or float):
         raise TypeError
 
     result_tuple = None
