@@ -1,0 +1,44 @@
+What is an "invioce"?
+An invoice is issued by a seller to the buyer. The invoice is a document that contains the sale transaction that
+has the products, quantity and the agreed price.
+
+What are "payment terms" on an invoice?
+Payment terms are the conditions surrounding the payment part of sale.
+
+What is VAT? In a B2B transaction, what are the rules for applying VAT (i.e. when should VAT be added and when shouldn't it?)
+Value added tax (VAT) is tax that a consumer would need to pay based on the value on the product. VAT should only be
+added when HMRC accepts the business application and if the VAT taxable turnover exceeds £85,000
+
+What pieces of information are required to be displayed on an invoice?
+● a unique identification number
+● your company name, address and contact information
+● the company name and address of the customer you’re invoicing
+● a clear description of what you’re charging for
+● the date the goods or service were provided (supply date)
+● the date of the invoice
+● the amount(s) being charged
+● VAT amount if applicable
+● the total amount owed
+
+Search for some examples of invoices online. What are some pieces of information that are not required, but are still commonly found on an invoice?
+● Logo
+●
+●
+
+What do the "line items" on an invoice represent?
+Line items on an invoice represent certain information about the product that the buyer has bought such as the
+name, quantity and the amount for each listed item.
+
+What are some possible payment methods for an invoice?
+● Cash
+● Check
+● Credit card
+● Online payment (such as paypal)
+
+What is a "remittance advice" note?
+A remittance advice note is sent by the buyer to an organisation letting them know that an invoice has been paid.
+
+What typically happens if an invoice is paid late?
+An invoice could have a date agreed upon on when it should be paid, however if the invoice does not have a date, the
+buyer has usually 30 days after the invoice is issued to pay the invoice. If the invoice is paid late, the buyer will
+have to pay a late fee ontop of the invoice (usually an 8% late fee)
