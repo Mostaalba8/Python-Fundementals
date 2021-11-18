@@ -1,0 +1,65 @@
+What is a URL?
+URL stands for Uniform Resource Locator, and it is the address of a given unique resource on the Web. In theory, each
+valid URL points to a unique resource.
+
+
+What are the components of a URL?
+The components of a URL are:
+● Scheme ------------ http://
+● Domain name ------- www.example.com
+● Port -------------- 80
+● Path to resource -- /path/to/my/file
+● Parameters -------- ?key1=value1&key2=value2
+● Anchor ------------ #SomewhereInTheDocument
+
+
+What are query string parameters?
+On the internet, a Query string is the part of a link which assigns values to specified attributes (known as keys
+or parameters). Query strings allow information to be sent to a webpage in a way that can be easily ingested and
+used within the webpage.
+
+
+What is HTTP?
+HTTP stands for 'Hyper Text Transfer Protocol' and is used to allow users to communicate date on the World Wide Web.
+
+
+What are POST and GET?
+The GET and POST are two different types of HTTP requests. GET is used for viewing something, without changing it,
+while POST is used for changing something.
+
+
+What’s an API?
+API stands for Application Programming Interface, and it is a connection between computers or between computer
+programs. It is a type of software interface, offering a service to other pieces of software.
+
+
+What is JSON?
+JSON is an open standard file format and data interchange format that uses human-readable text to store and
+transmit data objects consisting of attribute–value pairs and arrays.
+
+
+How do you work with JSON data in Python?
+● Create a new Python file an import JSON
+● Crate a dictionary in the form of a string to use as JSON
+● Use the JSON module to convert your string into a dictionary.
+● Write a class to load the data from your string.
+● Instantiate an object from your class and print some data from it.
+● Create a JSON file with some JSON in it.
+● Import your JSON file into Python and iterate over the resulting data.
+
+
+What is the `requests` Python library? Get it installed in your project’s virtual environment using `pip`.
+
+The python library 'requests' is used for making HTTP requests in Python. It abstracts the complexities of making
+requests behind a beautiful, simple API so that you can focus on interacting with services and consuming data
+in your application.
+
+
+
+How does your code handle situations where it can’t access the API? Give it a try by running your code with the network
+cable plugged out (or your WiFi switched off, or your laptop in Airplane mode). What can you do to make your program
+handle connectivity issues like these more gracefully, from the end-user’s perspective?
+
+Handle the error by returning status code 404 with a meaningful message
+
+
